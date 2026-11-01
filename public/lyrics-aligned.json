@@ -1,0 +1,54 @@
+{
+  "words": [
+    {
+      "text": "kya",
+      "start": 0.9,
+      "startFrame": 54
+    },
+    {
+      "text": "fitoor",
+      "start": 1.3,
+      "startFrame": 78
+    },
+    {
+      "text": "hai",
+      "start": 1.93,
+      "startFrame": 116
+    },
+    {
+      "text": "raha",
+      "start": 2.85,
+      "startFrame": 171
+    },
+    {
+      "text": "kyun",
+      "start": 3.4,
+      "startFrame": 204
+    },
+    {
+      "text": "jaaye",
+      "start": 3.97,
+      "startFrame": 238
+    },
+    {
+      "text": "naa",
+      "start": 4.6,
+      "startFrame": 276
+    },
+    {
+      "text": "yeh",
+      "start": 5.55,
+      "startFrame": 333
+    },
+    {
+      "text": "kasoor",
+      "start": 6.13,
+      "startFrame": 368
+    },
+    {
+      "text": "mera",
+      "start": 6.97,
+      "startFrame": 418
+    }
+  ]
+}

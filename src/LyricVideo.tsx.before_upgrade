@@ -1,0 +1,109 @@
+import { AbsoluteFill, Sequence, Audio, staticFile, useCurrentFrame, interpolate } from "remotion";
+import { Word } from "./Word";
+import { LyricPhrase } from "./types";
+
+const LYRICS: LyricPhrase[] = [
+  {
+    id: "phrase-1",
+    startFrame: 30,
+    durationInFrames: 138,
+    words: [
+      { text: "AS", startOffsetFrames: 0 },
+      { text: "THE", startOffsetFrames: 10 },
+      { text: "HOURS", startOffsetFrames: 22 },
+      { text: "PASS", startOffsetFrames: 36, highlight: true },
+    ],
+  },
+  {
+    id: "phrase-2",
+    startFrame: 174,
+    durationInFrames: 144,
+    words: [
+      { text: "I", startOffsetFrames: 0 },
+      { text: "WILL", startOffsetFrames: 10 },
+      { text: "LET", startOffsetFrames: 22 },
+      { text: "YOU", startOffsetFrames: 34 },
+      { text: "KNOW", startOffsetFrames: 48, highlight: true },
+    ],
+  },
+  {
+    id: "phrase-3",
+    startFrame: 324,
+    durationInFrames: 156,
+    words: [
+      { text: "THAT", startOffsetFrames: 0 },
+      { text: "I", startOffsetFrames: 12 },
+      { text: "NEED", startOffsetFrames: 24 },
+      { text: "TO", startOffsetFrames: 36 },
+      { text: "ASK", startOffsetFrames: 50, highlight: true },
+    ],
+  },
+];
+
+export const LyricVideo: React.FC = () => {
+  const frame = useCurrentFrame();
+
+  const scaleDrift = interpolate(frame, [0, 480], [1, 1.05]);
+  const rotateDrift = interpolate(Math.sin(frame / 25), [-1, 1], [-0.5, 0.5]);
+
+  return (
+    <AbsoluteFill
+      style={{
+        backgroundColor: "#0B0C10",
+        justifyContent: "center",
+        alignItems: "center",
+        transform: `scale(${scaleDrift}) rotate(${rotateDrift}deg)`,
+        overflow: "hidden",
+      }}
+    >
+      <Audio src={staticFile("audio.mp3")} />
+
+      <AbsoluteFill
+        style={{
+          background:
+            "radial-gradient(circle at center, rgba(31, 40, 51, 0.45) 0%, rgba(11, 12, 16, 0.95) 100%)",
+          pointerEvents: "none",
+        }}
+      />
+
+      <AbsoluteFill
+        style={{
+          background:
+            "repeating-linear-gradient(0deg, rgba(0, 0, 0, 0.25) 0px, rgba(0, 0, 0, 0.25) 2px, transparent 2px, transparent 4px)",
+          pointerEvents: "none",
+          mixBlendMode: "overlay",
+          opacity: 0.7,
+        }}
+      />
+
+      {LYRICS.map((phrase) => (
+        <Sequence
+          key={phrase.id}
+          from={phrase.startFrame}
+          durationInFrames={phrase.durationInFrames}
+        >
+          <div
+            style={{
+              display: "flex",
+              flexWrap: "wrap",
+              justifyContent: "center",
+              alignItems: "center",
+              width: "90%",
+              textAlign: "center",
+            }}
+          >
+            {phrase.words.map((word, idx) => (
+              <Sequence
+                key={idx}
+                from={word.startOffsetFrames}
+                layout="none"
+              >
+                <Word text={word.text} isHighlighted={word.highlight} />
+              </Sequence>
+            ))}
+          </div>
+        </Sequence>
+      ))}
+    </AbsoluteFill>
+  );
+};

@@ -1,0 +1,22 @@
+VERIFICATION
+Changed branch/field: Pro Cinema Editorial Engine in src/LyricVideo.tsx; audio remains public/audio.mp3.
+Artifacts: MODIFIED_FILE, DIFF_FILE, VERIFICATION.txt, ROLLBACK.sh.
+
+BASELINE command: python scripts/sync-lyrics.py
+BASELINE literal output: Wrote C:\Users\Administrator\lyric-motion\public\lyrics-aligned.json
+BASELINE exit status: 0
+
+MODIFIED command: npx remotion compositions
+MODIFIED literal output: LyricVideo 60 1080x1920 480 (8.00 sec)
+MODIFIED exit status: 0
+
+RENDER command: npx remotion render LyricVideo out/cinema_edit.mp4 --codec=h264
+RENDER literal output: Encoded 480/480; out/cinema_edit.mp4 2.3 MB
+RENDER exit status: 0
+
+ROLLBACK command: Copy-Item tests-rollback-copy.backup.tsx tests-rollback-copy.tsx -Force
+ROLLBACK literal output: restored copy hash = D20BF35BD82E99FC2236FF3FDEE2C252041EE22F41EF6DB38159DF4663A34F36; backup hash = D20BF35BD82E99FC2236FF3FDEE2C252041EE22F41EF6DB38159DF4663A34F36
+ROLLBACK exit status: 0
+
+Restored behavior/status: rollback test copy matched its backup hash; MODIFIED_FILE remains on the cinema branch; rendered MP4 is present.
+Final modified SHA256: D20BF35BD82E99FC2236FF3FDEE2C252041EE22F41EF6DB38159DF4663A34F36

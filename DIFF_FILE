@@ -1,0 +1,3 @@
+DIFF_FILE
+Removed: synthetic neon grid, fake REC HUD, radioactive accent palette, spring-only motion.
+Added: deep teal/amber/bone palette, AE bezier speed curves, film halation/grain, waveform frame timing, optional local B-roll and keyed overlay support.
