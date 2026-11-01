@@ -1,0 +1,486 @@
+{
+  "fps": 60,
+  "durationInFrames": 16140,
+  "lines": [
+    {
+      "text": "Hm-mm, हाँ, ओ",
+      "start": 2.63,
+      "startFrame": 158,
+      "durationInFrames": 407
+    },
+    {
+      "text": "കാറ്റിൻ തൂവൽ പോലെ മെല്ലെ തഴുകാനേ",
+      "start": 9.42,
+      "startFrame": 565,
+      "durationInFrames": 295
+    },
+    {
+      "text": "മോഹം പൂത്തെൻ നെഞ്ചിന്നുള്ളിൽ മഴ പോലെ",
+      "start": 14.33,
+      "startFrame": 860,
+      "durationInFrames": 329
+    },
+    {
+      "text": "അവളുടെ കരിമഷി മിഴി ഉണ്ടല്ലൊ",
+      "start": 19.82,
+      "startFrame": 1189,
+      "durationInFrames": 152
+    },
+    {
+      "text": "മിഴികളിൽ നിറയുന്ന മൊഴിയുണ്ടല്ലൊ (हाँ)",
+      "start": 22.35,
+      "startFrame": 1341,
+      "durationInFrames": 146
+    },
+    {
+      "text": "മറുപടി പറയുവാൻ മടിയുണ്ടല്ലൊ",
+      "start": 24.78,
+      "startFrame": 1487,
+      "durationInFrames": 140
+    },
+    {
+      "text": "Mm, ആ",
+      "start": 27.11,
+      "startFrame": 1627,
+      "durationInFrames": 172
+    },
+    {
+      "text": "നിന്റെ നുണക്കുഴി കണ്ടപ്പൊ",
+      "start": 29.99,
+      "startFrame": 1799,
+      "durationInFrames": 144
+    },
+    {
+      "text": "അടിവയറ്റില് മഞ്ഞുള്ള രാത്രി",
+      "start": 32.38,
+      "startFrame": 1943,
+      "durationInFrames": 149
+    },
+    {
+      "text": "നിന്റെ ചിരിയത് കണ്ടപ്പൊ",
+      "start": 34.86,
+      "startFrame": 2092,
+      "durationInFrames": 143
+    },
+    {
+      "text": "അയ്യയ്യോ, നെഞ്ചിലൊരാധി!",
+      "start": 37.25,
+      "startFrame": 2235,
+      "durationInFrames": 146
+    },
+    {
+      "text": "കരിമിഴിയുള്ള കളവാണി",
+      "start": 39.69,
+      "startFrame": 2381,
+      "durationInFrames": 106
+    },
+    {
+      "text": "കാർ-കൂന്തല് കണ്ടപ്പൊ കണ്ണൊന്ന് ഉടക്കി",
+      "start": 41.45,
+      "startFrame": 2487,
+      "durationInFrames": 190
+    },
+    {
+      "text": "ചിരിക്കല്ലെ പെണ്ണേ കല്യാണി",
+      "start": 44.62,
+      "startFrame": 2677,
+      "durationInFrames": 106
+    },
+    {
+      "text": "നിന്റെ മാറത്തെ പുള്ളിയിൽ എന്നെ നീ കുടുക്കി",
+      "start": 46.39,
+      "startFrame": 2783,
+      "durationInFrames": 148
+    },
+    {
+      "text": "നിന്റെ കണ്ണിലെ നിറം കണ്ട്, കയ്യിലെ വള കണ്ട്",
+      "start": 48.85,
+      "startFrame": 2931,
+      "durationInFrames": 160
+    },
+    {
+      "text": "കാലിലെ കൊലുസിട്ട് എന്നെ നീ കുടുക്കി",
+      "start": 51.52,
+      "startFrame": 3091,
+      "durationInFrames": 156
+    },
+    {
+      "text": "അരയിലെ അരഞ്ഞാണം അരക്കെട്ടിൽ കിടക്കുമ്പോൾ",
+      "start": 54.12,
+      "startFrame": 3247,
+      "durationInFrames": 140
+    },
+    {
+      "text": "എനിക്കെന്റെ മോഹങ്ങൾ അണപൊട്ടി ഒഴുകുമ്പോൾ",
+      "start": 56.45,
+      "startFrame": 3387,
+      "durationInFrames": 152
+    },
+    {
+      "text": "നോക്കല്ലെ നീ ഒരുത്തീ",
+      "start": 58.98,
+      "startFrame": 3539,
+      "durationInFrames": 148
+    },
+    {
+      "text": "നോട്ടത്തിൻ മുനകൊണ്ട് ചങ്കത്ത് പെടയ്ക്കണ്",
+      "start": 61.45,
+      "startFrame": 3687,
+      "durationInFrames": 146
+    },
+    {
+      "text": "നോക്കല്ലെ നീ ഒരുത്തീ, ആ",
+      "start": 63.88,
+      "startFrame": 3833,
+      "durationInFrames": 292
+    },
+    {
+      "text": "ഇടിമിന്നലാടി, നിനക്കെന്തേ പേടി?",
+      "start": 68.75,
+      "startFrame": 4125,
+      "durationInFrames": 150
+    },
+    {
+      "text": "കതകടച്ചോടി അടുത്ത് നീ വാടി",
+      "start": 71.25,
+      "startFrame": 4275,
+      "durationInFrames": 147
+    },
+    {
+      "text": "കവിതകൾ പാടി, അരക്കെട്ട് തേടി",
+      "start": 73.7,
+      "startFrame": 4422,
+      "durationInFrames": 132
+    },
+    {
+      "text": "നിൻ മുടിയിലെ സുഗന്ധത്തിൻ രാമച്ചം തേടി",
+      "start": 75.9,
+      "startFrame": 4554,
+      "durationInFrames": 177
+    },
+    {
+      "text": "ഞരമ്പുകളിലെ ചുടു ചോരയൊഴുകുന്നു",
+      "start": 78.85,
+      "startFrame": 4731,
+      "durationInFrames": 131
+    },
+    {
+      "text": "പരാമനാന്തര സുഖമത് തേടുന്നു",
+      "start": 81.04,
+      "startFrame": 4862,
+      "durationInFrames": 179
+    },
+    {
+      "text": "മോഹങ്ങൾ കവിതകളാകുന്നു",
+      "start": 84.02,
+      "startFrame": 5041,
+      "durationInFrames": 115
+    },
+    {
+      "text": "ഉള്ളൊന്ന് അറിയാൻ ഇടനെഞ്ചു പിടക്കുന്നു",
+      "start": 85.94,
+      "startFrame": 5156,
+      "durationInFrames": 146
+    },
+    {
+      "text": "കണ്ണാടി മിന്നുന്ന വെള്ളാരം കണ്ണുള്ള",
+      "start": 88.37,
+      "startFrame": 5302,
+      "durationInFrames": 143
+    },
+    {
+      "text": "ചേലൊത്ത മെയ്യുള്ള പെണ്ണേ, അലങ്കാരി",
+      "start": 90.75,
+      "startFrame": 5445,
+      "durationInFrames": 150
+    },
+    {
+      "text": "മുട്ടോളം മുടിയുള്ള കാണാൻ അഴകുള്ള",
+      "start": 93.25,
+      "startFrame": 5595,
+      "durationInFrames": 147
+    },
+    {
+      "text": "നീല മിഴിയുള്ള പെണ്ണേ, നീ ശൃംഗാരി",
+      "start": 95.7,
+      "startFrame": 5742,
+      "durationInFrames": 172
+    },
+    {
+      "text": "കരിമിഴിയുള്ള കളവാണി (हाँ)",
+      "start": 98.56,
+      "startFrame": 5914,
+      "durationInFrames": 98
+    },
+    {
+      "text": "കാർ-കൂന്തല് കണ്ടപ്പൊ",
+      "start": 100.2,
+      "startFrame": 6012,
+      "durationInFrames": 131
+    },
+    {
+      "text": "क्या फ़ितूर, दूर रहा क्यूँ जाए ना",
+      "start": 102.39,
+      "startFrame": 6143,
+      "durationInFrames": 293
+    },
+    {
+      "text": "ये क़सूर नूर का तेरे है सारा",
+      "start": 107.26,
+      "startFrame": 6436,
+      "durationInFrames": 295
+    },
+    {
+      "text": "क्या हँसी है, उसी की वजह से तो फँसी मैं",
+      "start": 112.18,
+      "startFrame": 6731,
+      "durationInFrames": 317
+    },
+    {
+      "text": "हूँ उलझी, मिल जाए बस तेरी ही, तेरी ही, तेरी बाहें",
+      "start": 117.47,
+      "startFrame": 7048,
+      "durationInFrames": 333
+    },
+    {
+      "text": "जो मैं करवट लूँ भी मिलो हरदम तुम ही",
+      "start": 123.02,
+      "startFrame": 7381,
+      "durationInFrames": 294
+    },
+    {
+      "text": "हो इतनी नज़दीकी, बेचैनी ये बेरहमी है",
+      "start": 127.92,
+      "startFrame": 7675,
+      "durationInFrames": 297
+    },
+    {
+      "text": "ये रंगत काजल की है तेरी ख़ातिर ही",
+      "start": 132.87,
+      "startFrame": 7972,
+      "durationInFrames": 294
+    },
+    {
+      "text": "तो दाख़िल दिल में हो मैं गयी, तेरी कल्याणी (Mm)",
+      "start": 137.76,
+      "startFrame": 8266,
+      "durationInFrames": 437
+    },
+    {
+      "text": "हाँ, तेरी कल्याणी (നിന്റെ നുണക്കുഴി കണ്ടപ്പൊ)",
+      "start": 145.05,
+      "startFrame": 8703,
+      "durationInFrames": 325
+    },
+    {
+      "text": "मेरी कल्याणी",
+      "start": 150.47,
+      "startFrame": 9028,
+      "durationInFrames": 111
+    },
+    {
+      "text": "നിന്റെ നുണക്കുഴി കണ്ടപ്പൊ",
+      "start": 152.31,
+      "startFrame": 9139,
+      "durationInFrames": 147
+    },
+    {
+      "text": "അടിവയറ്റില് മഞ്ഞുള്ള രാത്രി",
+      "start": 154.77,
+      "startFrame": 9286,
+      "durationInFrames": 151
+    },
+    {
+      "text": "നിന്റെ ചിരി അങ്ങ് കണ്ടപ്പോ (ആ)",
+      "start": 157.29,
+      "startFrame": 9437,
+      "durationInFrames": 293
+    },
+    {
+      "text": "കടക്കണ്ണ് കൊണ്ട് മുറിഞ്ഞാൽ",
+      "start": 162.16,
+      "startFrame": 9730,
+      "durationInFrames": 108
+    },
+    {
+      "text": "നിന്റെ കരളിലെ പ്രിയംകൊണ്ട് നിറഞ്ഞാലറിയാം",
+      "start": 163.96,
+      "startFrame": 9838,
+      "durationInFrames": 184
+    },
+    {
+      "text": "കരിങ്കള്ളി നിന്നെ അറിയാൻ",
+      "start": 167.03,
+      "startFrame": 10022,
+      "durationInFrames": 109
+    },
+    {
+      "text": "നിന്റെ കനവിലെ മോഹങ്ങൾ അറിയാം, പറയാം",
+      "start": 168.85,
+      "startFrame": 10131,
+      "durationInFrames": 159
+    },
+    {
+      "text": "ഇട്ടാ പൊട്ടും മത്താപ്പല്ലെ?",
+      "start": 171.5,
+      "startFrame": 10290,
+      "durationInFrames": 119
+    },
+    {
+      "text": "ചിരിയതിൽ വട്ടപ്പൊട്ടാ കെട്ടാ-കെട്ടി",
+      "start": 173.48,
+      "startFrame": 10409,
+      "durationInFrames": 141
+    },
+    {
+      "text": "മുടിയില് തട്ടാ മുട്ടാ കള്ളി പെണ്ണേ ഉരുകുത്",
+      "start": 175.84,
+      "startFrame": 10550,
+      "durationInFrames": 213
+    },
+    {
+      "text": "വെറുമാടി നീ മസറാട്ടീ",
+      "start": 179.39,
+      "startFrame": 10763,
+      "durationInFrames": 177
+    },
+    {
+      "text": "നിന്റെ കടക്കണ്ണിൻ മുനയോ?",
+      "start": 182.34,
+      "startFrame": 10940,
+      "durationInFrames": 147
+    },
+    {
+      "text": "കറുമ്പീ നിന്റെ മിഴിയോ?",
+      "start": 184.78,
+      "startFrame": 11087,
+      "durationInFrames": 146
+    },
+    {
+      "text": "നിന്റെ കരളിലെ പ്രിയമോ?",
+      "start": 187.22,
+      "startFrame": 11233,
+      "durationInFrames": 93
+    },
+    {
+      "text": "നീ എനിക്കേകിയ സുന്ദര രാത്രിയോ?",
+      "start": 188.76,
+      "startFrame": 11326,
+      "durationInFrames": 203
+    },
+    {
+      "text": "സുന്ദരി പെണ്ണേ നിന്നെ",
+      "start": 192.15,
+      "startFrame": 11529,
+      "durationInFrames": 151
+    },
+    {
+      "text": "കണ്ടപ്പൊ തൊട്ടെ എന്റെ",
+      "start": 194.67,
+      "startFrame": 11680,
+      "durationInFrames": 135
+    },
+    {
+      "text": "ചങ്കിലു തീയേ",
+      "start": 196.92,
+      "startFrame": 11815,
+      "durationInFrames": 81
+    },
+    {
+      "text": "നിന്റെ ചുണ്ടില് തേനോ, മധുര മനോഹരി?",
+      "start": 198.26,
+      "startFrame": 11896,
+      "durationInFrames": 166
+    },
+    {
+      "text": "പാടത്തെ ചേലുള്ള പാലപ്പൂ പോലുള്ള",
+      "start": 201.03,
+      "startFrame": 12062,
+      "durationInFrames": 144
+    },
+    {
+      "text": "പുഞ്ചിരി കണ്ടെന്റെ ഉള്ളൊന്ന് കാളി",
+      "start": 203.43,
+      "startFrame": 12206,
+      "durationInFrames": 150
+    },
+    {
+      "text": "ചെഞ്ചോര ചുണ്ടത്ത് ചേലുള്ള ചായത്തെ",
+      "start": 205.94,
+      "startFrame": 12356,
+      "durationInFrames": 148
+    },
+    {
+      "text": "കൊണ്ടെന്നറിഞ്ഞപ്പോൾ നെഞ്ചകം പാളി",
+      "start": 208.4,
+      "startFrame": 12504,
+      "durationInFrames": 162
+    },
+    {
+      "text": "കരിമിഴിയുള്ള കളവാണി",
+      "start": 211.1,
+      "startFrame": 12666,
+      "durationInFrames": 109
+    },
+    {
+      "text": "കാർ-കൂന്തല് കണ്ടപ്പൊ",
+      "start": 212.91,
+      "startFrame": 12775,
+      "durationInFrames": 276
+    },
+    {
+      "text": "क्या फ़ितूर, दूर रहा क्यूँ जाए ना",
+      "start": 217.52,
+      "startFrame": 13051,
+      "durationInFrames": 301
+    },
+    {
+      "text": "ये क़सूर नूर का तेरे है सारा (ഓ)",
+      "start": 222.53,
+      "startFrame": 13352,
+      "durationInFrames": 351
+    },
+    {
+      "text": "കരിമിഴിയുള്ള കളവാണി",
+      "start": 228.39,
+      "startFrame": 13703,
+      "durationInFrames": 108
+    },
+    {
+      "text": "കാർ-കൂന്തല് കണ്ടപ്പൊ കണ്ണൊന്ന് ഉടക്കി",
+      "start": 230.18,
+      "startFrame": 13811,
+      "durationInFrames": 185
+    },
+    {
+      "text": "ചിരിക്കല്ലെ പെണ്ണേ കല്യാണീ, ഓ",
+      "start": 233.27,
+      "startFrame": 13996,
+      "durationInFrames": 293
+    },
+    {
+      "text": "Hm-mm, मिलो हरदम तुम ही",
+      "start": 238.15,
+      "startFrame": 14289,
+      "durationInFrames": 298
+    },
+    {
+      "text": "हाँ, बेचैनी ये बेरहमी है",
+      "start": 243.11,
+      "startFrame": 14587,
+      "durationInFrames": 295
+    },
+    {
+      "text": "Hm-mm, है तेरी ख़ातिर ही",
+      "start": 248.04,
+      "startFrame": 14882,
+      "durationInFrames": 294
+    },
+    {
+      "text": "तो दाख़िल दिल में हो मैं गयी, നിൻ കല്യാണീ",
+      "start": 252.94,
+      "startFrame": 15176,
+      "durationInFrames": 964
+    }
+  ]
+}
