@@ -56,7 +56,7 @@ type Enter = "bottom" | "left" | "right" | "depth";
 type WordDef = {
   text: string;
   hindi?: string;
-  font: "sans" | "serif";
+  font: "sans" | "serif" | "hindi";
   size: number;
   x: number;
   y: number;
@@ -75,38 +75,25 @@ type Phrase = Omit<PhraseDef, "words"> & { from: number; duration: number; words
 
 /**
  * Words in singing order. The Nth word here gets the Nth entry of lyrics-aligned.json.
- * There are 9 words in total after removing the incorrect `hai`: kya fitoor | raha kyun jaaye naa | yeh kasoor mera
+ * The text layer is driven by three exact LRC lines from the selected 12-second excerpt; no guessed or extra words are added.
  */
 const PHRASE_DEFS: PhraseDef[] = [
   {
-    id: "p1",
-    angle: { x: 0, y: 0, rotate: -1.5, scale: 1.04 },
-    words: [
-      { text: "kya", font: "serif", size: 86, x: -130, y: -95, enter: "left" },
-      { text: "FITOOR", hindi: "फ़ितूर", font: "sans", size: 138, x: 10, y: 5, enter: "depth", accent: true },
-    ],
+    id: "lrc-1",
+    angle: { x: 0, y: -20, rotate: -1.2, scale: 1.02 },
+    words: [{ text: "क्या फ़ितूर, दूर रहा क्यूँ जाए ना", font: "hindi", size: 68, x: 0, y: 0, enter: "left", accent: true }],
   },
   {
-    id: "p2",
-    angle: { x: -12, y: 8, rotate: 1.8, scale: 1.06 },
-    words: [
-      { text: "raha", font: "serif", size: 82, x: -150, y: -130, enter: "left" },
-      { text: "KYUN", font: "sans", size: 112, x: 90, y: -45, enter: "right" },
-      { text: "jaaye", hindi: "जाए ना", font: "serif", size: 124, x: -40, y: 55, enter: "bottom", accent: true },
-      { text: "NAA", font: "sans", size: 132, x: 115, y: 155, enter: "depth", accent: true },
-    ],
+    id: "lrc-2",
+    angle: { x: 0, y: 10, rotate: 1.1, scale: 1.04 },
+    words: [{ text: "ये क़सूर नूर का तेरे है सारा", font: "hindi", size: 66, x: 0, y: 0, enter: "right", accent: true }],
   },
   {
-    id: "p3",
-    angle: { x: 10, y: -10, rotate: -1.2, scale: 1.08 },
-    words: [
-      { text: "yeh", font: "serif", size: 88, x: -140, y: -100, enter: "bottom" },
-      { text: "KASOOR", hindi: "कसूर", font: "sans", size: 134, x: 0, y: 0, enter: "depth", accent: true },
-      { text: "mera.", hindi: "मेरा", font: "serif", size: 108, x: 120, y: 110, enter: "right" },
-    ],
+    id: "lrc-3",
+    angle: { x: 0, y: 0, rotate: -0.8, scale: 1.06 },
+    words: [{ text: "क्या हँसी है, उसी की वजह से तो फँसी मैं", font: "hindi", size: 54, x: 0, y: 0, enter: "depth", accent: true }],
   },
 ];
-
 /** Used only if lyrics-aligned.json is missing words (same values as the old hand-typed table). */
 const FALLBACK_FRAMES = [54, 78, 171, 204, 238, 276, 333, 368, 418];
 
@@ -274,12 +261,12 @@ const EditorialWord: React.FC<{ word: Word; phraseStart: number }> = ({ word, ph
       )}
       <span
         style={{
-          fontFamily: word.font === "serif" ? serifFont : displayFont,
+          fontFamily: word.font === "hindi" ? hindiFont : word.font === "serif" ? serifFont : displayFont,
           fontStyle: word.font === "serif" ? "italic" : "normal",
-          fontWeight: word.font === "serif" ? 600 : 800,
+          fontWeight: word.font === "serif" ? 600 : 700,
           fontSize: word.size,
           color,
-          letterSpacing: word.font === "serif" ? -1 : -3,
+          letterSpacing: word.font === "hindi" ? 0 : word.font === "serif" ? -1 : -3,
           lineHeight: 0.95,
           textShadow: shadow,
           whiteSpace: "nowrap",
@@ -409,5 +396,6 @@ export const LyricVideo: React.FC = () => {
     </AbsoluteFill>
   );
 };
+
 
 

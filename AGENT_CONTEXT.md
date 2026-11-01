@@ -55,3 +55,13 @@ The current edit uses the provided full Kalyani track and selects the LRC sectio
 The incorrect `hai` word was removed only. The remaining nine lyric entries and their existing timing structure are preserved.
 
 Preview: `out/kalyani_lrc_preview.mp4`
+## Exact LRC text-layer update
+
+The 12-second excerpt starts at LRC timestamp `01:42.39` in `public/KALYANI.lrc` and is mapped to source audio frames `6143..6863` at 60fps.
+
+Exact line starts relative to the edit:
+- frame 0: क्या फ़ितूर, दूर रहा क्यूँ जाए ना
+- frame 292: ये क़सूर नूर का तेरे है सारा
+- frame 587: क्या हँसी है, उसी की वजह से तो फँसी मैं
+
+The text layer now renders these exact LRC lines. No guessed lyric words are inserted.
