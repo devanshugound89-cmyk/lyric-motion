@@ -17,10 +17,10 @@ Branch: `master`
 ## Project map
 
 - `src/LyricVideo.tsx`: cinematic lyric composition and timing data.
-- `src/Root.tsx`: 1080x1920, 60fps, 480-frame composition registration.
+- `src/Root.tsx`: 1080x1920, 60fps, 720-frame composition registration.
 - `scripts/sync-lyrics.py`: converts word start seconds to 60fps `startFrame` values.
 - `scripts/fetch-assets.mjs`: optional local B-roll and overlay preprocessing.
-- `public/audio.mp3`: the trimmed 8-second render audio used by the composition.
+- `public/audio.mp3`: the trimmed 12-second render audio used by the composition.
 - `public/lyrics-aligned.json`: generated word timing reference.
 
 ## Known word timing reference
@@ -47,3 +47,11 @@ npx remotion render LyricVideo out/cinema_edit.mp4 --codec=h264
 ```
 
 The repository is intentionally source-first. Rendered MP4 files under `out/` are ignored by Git; the source, timing data, audio, and pipeline scripts are committed.
+
+# Kalyani LRC update
+
+The current edit uses the provided full Kalyani track and selects the LRC section beginning at `[01:42.39]` through a 12-second excerpt via `Audio startFrom={6143} endAt={6863}` at 60fps.
+
+The incorrect `hai` word was removed only. The remaining nine lyric entries and their existing timing structure are preserved.
+
+Preview: `out/kalyani_lrc_preview.mp4`

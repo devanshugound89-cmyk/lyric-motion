@@ -26,7 +26,7 @@ ROOT = pathlib.Path(__file__).resolve().parents[1]
 FPS = 60
 
 # Labels shown in the JSON (must match the 10 lyric words, in order)
-LABELS = ["kya", "fitoor", "hai", "raha", "kyun", "jaaye", "naa", "yeh", "kasoor", "mera"]
+LABELS = ["kya", "fitoor", "raha", "kyun", "jaaye", "naa", "yeh", "kasoor", "mera"]
 
 
 def main() -> None:
@@ -85,3 +85,5 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
+

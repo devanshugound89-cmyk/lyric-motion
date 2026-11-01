@@ -75,7 +75,7 @@ type Phrase = Omit<PhraseDef, "words"> & { from: number; duration: number; words
 
 /**
  * Words in singing order. The Nth word here gets the Nth entry of lyrics-aligned.json.
- * There are 10 words in total: kya fitoor hai | raha kyun jaaye naa | yeh kasoor mera
+ * There are 9 words in total after removing the incorrect `hai`: kya fitoor | raha kyun jaaye naa | yeh kasoor mera
  */
 const PHRASE_DEFS: PhraseDef[] = [
   {
@@ -84,7 +84,6 @@ const PHRASE_DEFS: PhraseDef[] = [
     words: [
       { text: "kya", font: "serif", size: 86, x: -130, y: -95, enter: "left" },
       { text: "FITOOR", hindi: "फ़ितूर", font: "sans", size: 138, x: 10, y: 5, enter: "depth", accent: true },
-      { text: "hai...", font: "serif", size: 92, x: 145, y: 105, enter: "bottom" },
     ],
   },
   {
@@ -109,7 +108,7 @@ const PHRASE_DEFS: PhraseDef[] = [
 ];
 
 /** Used only if lyrics-aligned.json is missing words (same values as the old hand-typed table). */
-const FALLBACK_FRAMES = [54, 78, 116, 171, 204, 238, 276, 333, 368, 418];
+const FALLBACK_FRAMES = [54, 78, 171, 204, 238, 276, 333, 368, 418];
 
 const TOTAL_WORDS = PHRASE_DEFS.reduce((n, p) => n + p.words.length, 0);
 
@@ -376,7 +375,7 @@ export const LyricVideo: React.FC = () => {
 
   return (
     <AbsoluteFill style={{ backgroundColor: "#090D12", overflow: "hidden" }}>
-      <Audio src={staticFile("audio.mp3")} />
+      <Audio src={staticFile("audio.mp3")} startFrom={6143} endAt={6863} />
       <CinematicBackdrop />
 
       <AbsoluteFill style={{ transform: `translate3d(${swayX}px,${swayY}px,0) scale(${breathe})` }}>
@@ -410,3 +409,5 @@ export const LyricVideo: React.FC = () => {
     </AbsoluteFill>
   );
 };
+
+
